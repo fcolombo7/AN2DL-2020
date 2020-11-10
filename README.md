@@ -1,2 +1,5 @@
-# AN2DL-2020
+# AN2DL Challenges
 Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
+
+- Filippo Colombo
+- Giovanni Del Vecchio
