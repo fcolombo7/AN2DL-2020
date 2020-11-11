@@ -13,7 +13,7 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 
 ### Results history
 
-| Filename      | Result        | Note  |
-| ------------- |:-------------:| -----:|
-| results_Nov11_09-10-27.csv | 0.70666 | first test with: _512x512_, _1_ hidden layer, _256_ units  |
-|results_Nov11_13-39-53 | 0.57333| |
+| Filename      | Result        | input size  | FExtr. depth | kernel size | stride | Class. HiddenLayer | Class. units | DropOut | L2 |
+| ------------- |:-------------:| -----------:|-------------:|------------:|-------:|-------------------:|-------------:|--------:|---:|
+| results_Nov11_09-10-27.csv | **0.70666** | 512x512 | 6 | 3x3 | (1,1) | 1 | 256 | - | - |
+| results_Nov11_13-39-53.csv | 0.57333| 254x256 | 4 | 3x3 | (2,2) | 2 | 128 | 0.2 | 0.001 |
