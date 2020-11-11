@@ -16,3 +16,4 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 | Filename      | Result        | Note  |
 | ------------- |:-------------:| -----:|
 | results_Nov11_09-10-27.csv | 0.70666 | first test with: _512x512_, _1_ hidden layer, _256_ units  |
+|results_Nov11_13-39-53 | 0.57333| |
