@@ -18,4 +18,4 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 | results_Nov11_09-10-27.csv | **0.70666** | 512x512 | 6 | 3x3 | (1,1) | 1 | 256 | - | - |
 | results_Nov11_13-39-53.csv | 0.57333| 254x256 | 4 | 3x3 | (2,2) | 2 | 128 | 0.2 | 0.001 |
 | results_Nov11_09-38-44.csv | 0.58444| 128x128 | 6 | 3x3 | 1 | 3 | 64 | - | - |
-| non testato | psuedo-random | 256x256 | 5 | 3x3 | 1 | 3 | 128 | 0.2 | 0.005 |
+| results_Nov12_21-27-13.csv | 0.70666 | 256x256 | 5 | 3x3 | 1 | 1 | 512 | 0.2 | 0.001 |
