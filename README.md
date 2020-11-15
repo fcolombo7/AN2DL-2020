@@ -22,4 +22,5 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 | results_Nov12_21-36-14.csv | 0.84222 | 256x256 | - | - | - | 1 | 256 | - | - | VGG16 |-|
 | results_Nov12_21-36-14.csv | 0.77111 | 256x256 | - | - | - | 1 | 512+128 | - | - | VGG16 |-|
 | results_Nov14_13-40-16.csv | 0.88444 | 400x400 | - | - | - | 1 | 448 | 0.1 | - | VGG16 |-|
-| results_Nov14_13-40-16.csv | 0.91555 | 400x400 | - | - | - | 1 | 448 | 0.2 | - | VGG16 |rotation_range=20, width_shift_range=0.3, height_shift_range=0.3, zoom_range=0.4, horizontal_flip=True, #brightness_range = [0.6, 1.5], shear_range=10, channel_shift_range=100, fill_mode='reflect', rescale=1./255
+| results_Nov14.csv | 0.91555 | 400x400 | - | - | - | 1 | 448 | 0.2 | - | VGG16 |rotation_range=20, width_shift_range=0.3, height_shift_range=0.3, zoom_range=0.4, horizontal_flip=True, #brightness_range = [0.6, 1.5], shear_range=10, channel_shift_range=100, fill_mode='reflect', rescale=1./255
+|results_Nov15_10-37-55.csv| 0.94 | 400x400 | - | - | - | 1 | 448 | 0.2 | - | VGG16 |same augmentation as above, double ft round 
