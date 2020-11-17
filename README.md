@@ -27,3 +27,4 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 |results_Nov15_14-31-13.csv| 0.93777 | 400x400 | - | - | - | 2 | 512+448 | 0.1 | - | VGG16 |same augmentation as above
 |results_Nov15_23-11-35.csv| 0.93333 | 400x400 | - | - | - | 2 | 512+512 | 0.2 | - | VGG16 |same augmentation as above
 |results_Nov16_10-58-01.csv| 0.92000 | 400x400 | - | - | - | 2 | 512+512 | - | 0.001 | VGG16 |same augmentation as above
+|results_Nov15_10-37-55.csv| **0.94** | 448x448 | - | - | - | 1 | 576 | 0.2 | - | VGG16 |same augmentation as above
