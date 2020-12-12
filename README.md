@@ -4,8 +4,14 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 
 - Filippo Colombo (**@fcolombo7**)
 - Giovanni Del Vecchio (**@giovannidv8**)
+---
+##Challenge 2
+
+### Steps and results history
 
 ---
+##Challenge 1
+
 ### Note
 * [Hyperparameter Optimization with Scikit-Learn, Scikit-Opt and Keras](https://towardsdatascience.com/hyperparameter-optimization-with-scikit-learn-scikit-opt-and-keras-f13367f3e796)
 * [K-Fold in KerasTuner](https://mc.ai/how-to-do-cross-validation-in-keras-tuner/) 
