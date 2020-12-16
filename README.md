@@ -8,6 +8,12 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 ## Challenge 2
 
 ### Steps and results history
+_U-Net like architecture_
+**Bipbip dataset**
+
+| Model Name | IoU Bipbip | Input size | Num of levels | Starting filter depth size | Regularization | Note |
+|-----------:|-----------:|-----------:|--------------:|---------------------------:|---------------:|-----:|
+| U-Net_s32 | 0.6533 | original | 4 | 32 | - |no normalization |
 
 ---
 ## Challenge 1
