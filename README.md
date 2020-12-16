@@ -13,7 +13,8 @@ _U-Net like architecture_
 
 | Model Name | IoU Bipbip | Input size | Num of levels | Starting filter depth size | Regularization | Note |
 |-----------:|-----------:|-----------:|--------------:|---------------------------:|---------------:|-----:|
-| U-Net_s32 | 0.6533 | original | 4 | 32 | - |no normalization |
+| U-Net_s32 | 0.6533 | original | 4 | 32 | - | no normalization |
+| U-Net_s16_norm-input | 0.0669 | original | 4 | 16 | - | with normalization --- NO! errore sul test set |
 
 ---
 ## Challenge 1
