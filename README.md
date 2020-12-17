@@ -15,6 +15,7 @@ _U-Net like architecture_
 |-----------:|-----------:|-----------:|--------------:|---------------------------:|---------------:|-----:|
 | U-Net_s32 | 0.6533 | original | 4 | 32 | - | no normalization |
 | U-Net_s16_norm-input | 0.0669 | original | 4 | 16 | - | with normalization --- NO! errore sul test set |
+| U-Net_s16_adapt-lr+batch_norm | 0.6543 | original | 4 | 16 | - | batch norm and adaptive learning rate |
 
 ---
 ## Challenge 1
