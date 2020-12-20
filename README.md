@@ -11,13 +11,15 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 _U-Net like architecture_
 **Bipbip dataset**
 
-| Model Name | IoU Bipbip | Input size | Num of levels | Starting filter depth size | Regularization | Note |
-|-----------:|-----------:|-----------:|--------------:|---------------------------:|---------------:|-----:|
-| U-Net_s32 | 0.6533 | original | 4 | 32 | - | no normalization |
-| U-Net_s16_norm-input | 0.0669 | original | 4 | 16 | - | with normalization --- NO! errore sul test set |
-| U-Net_s16_adapt-lr+batch_norm | 0.6543 | original | 4 | 16 | - | batch norm and adaptive learning rate |
-| U-Net_sXX_adapt-lr+batch_norm+l1 | --- | original | 4 | 16/32 | l1 | batch norm and adaptive learning rate, with l1: the net does not learn (both 32 and 16) |
-| U-Net_s32_adapt-lr+batch_norm+drop | 0.6642 | original | 4 | 32 | - | batch norm, adaptive learning rate [1e-3 - 1e-5], dropout 0.2 |
+| Model Name | IoU Bipbip | Input size | Num of levels | Starting filter depth size | Conv. per block | Regularization | Note |
+|-----------:|-----------:|-----------:|--------------:|---------------------------:|----------------:|---------------:|-----:|
+| U-Net_s32 | 0.6533 | original | 4 | 32 | 2 | - | no normalization |
+| U-Net_s16_norm-input | 0.0669 | original | 4 | 16 | 2 | - | with normalization --- NO! errore sul test set |
+| U-Net_s16_adapt-lr+batch_norm | 0.6543 | original | 4 | 16 | 2 | - | batch norm and adaptive learning rate |
+| U-Net_sXX_adapt-lr+batch_norm+l1 | --- | original | 4 | 16/32 | 2 | l1 | batch norm and adaptive learning rate, with l1: the net does not learn (both 32 and 16) |
+| U-Net_s32_adapt-lr+batch_norm+drop | 0.6642 | original | 4 | 32 | 2 | dropout=0.2 | batch norm, adaptive learning rate [1e-3 - 1e-5] |
+| U-Net_s32_adapt-lr_v2+batch_norm+drop | 0.6877  | original | 4 | 32 | 2 | dropout=0.2 | batch norm, adaptive learning rate [1e-4 - 1e-5] |
+| U-Net_s32_1convXblock_6depth | 0.6971 | original | 6 | 32 | 1 | - | batch norm, adaptive learning rate [1e-4 - 1e-5] |
 
 ---
 ## Challenge 1
@@ -32,7 +34,7 @@ _U-Net like architecture_
 _CNN from skratch_
 
 |Filename|Result|Input size|Feature extractor depth|kernel size|stride|N. Dense Hidden Layer |N. Neurons (dense layers)|Dropout|L2| info|
-|------:|------:|------:|------:|------:|------:|------:|------:|------:|------:|------:|
+|------:|------:|------:|------:|------:|------:|------:|------:|------:|------:|------:|6971
 | results_Nov11_09-10-27.csv | 0.70666 | 512x512 | 6 | 3x3 | (1,1) | 1 | 256 | - | - | - |
 | results_Nov11_13-39-53.csv | 0.57333 | 254x256 | 4 | 3x3 | (2,2) | 2 | 128 | 0.2 | 0.001 | other test with a larger kernel size has been done, but there were no imporvements |
 | results_Nov11_09-38-44.csv | 0.58444 | 128x128 | 6 | 3x3 | (1,1) | 3 | 64 | - | - | - |
