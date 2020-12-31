@@ -4,6 +4,12 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 
 - Filippo Colombo (**@fcolombo7**)
 - Giovanni Del Vecchio (**@giovannidv8**)
+
+--- 
+## Challenge 3
+
+### Steps and results history
+
 ---
 ## Challenge 2
 
