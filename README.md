@@ -8,13 +8,16 @@ Artificial Neural Networks and Deep Learning @ PoliMi, a.y. 2020
 --- 
 ## Challenge 3
 
+* https://github.com/chingyaoc/VQA-tensorflow
+* https://medium.com/@harshareddykancharla/visual-question-answering-with-hierarchical-question-image-co-attention-c5836684a180
+
 ### Steps and results history
 
 ---
 ## Challenge 2
 
 ### Steps and results history
-_U-Net like architecture_
+_U-Net like architecture_  
 **Bipbip dataset**
 
 | Model Name | IoU Bipbip | Input size | Num of levels | Starting filter depth size | Conv. per block | Regularization | Note |
@@ -37,16 +40,17 @@ _U-Net like architecture_
 ---
 
 ### Results history
-_CNN from skratch_
+_CNN from skratch_ 
 
 |Filename|Result|Input size|Feature extractor depth|kernel size|stride|N. Dense Hidden Layer |N. Neurons (dense layers)|Dropout|L2| info|
-|------:|------:|------:|------:|------:|------:|------:|------:|------:|------:|------:|6971
+|------:|------:|------:|------:|------:|------:|------:|------:|------:|------:|------:|  
 | results_Nov11_09-10-27.csv | 0.70666 | 512x512 | 6 | 3x3 | (1,1) | 1 | 256 | - | - | - |
 | results_Nov11_13-39-53.csv | 0.57333 | 254x256 | 4 | 3x3 | (2,2) | 2 | 128 | 0.2 | 0.001 | other test with a larger kernel size has been done, but there were no imporvements |
 | results_Nov11_09-38-44.csv | 0.58444 | 128x128 | 6 | 3x3 | (1,1) | 3 | 64 | - | - | - |
 | results_Nov12_21-27-13.csv | 0.70666 | 256x256 | 5 | 3x3 | (1,1) | 1 | 512 | 0.2 | 0.001 | - |
 
-_CNN with Transfer Learning_
+_CNN with Transfer Learning_  
+
 |Filename|Result|Input size|Base model|N. Dense Hidden Layer |N. Neurons (dense layers)|Dropout|L2| info|
 |------:|------:|------:|------:|------:|------:|------:|------:|------:|
 | results_Nov12_21-36-14.csv | 0.84222 | 256x256 | VGG16 | 1 | 256 | - | - | - |
